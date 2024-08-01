@@ -5,7 +5,7 @@
 Accurate and reliable prediction of bus arrival times enhances passenger mobility experience. This study addresses a significant research gap by focusing on the complexities of predicting bus arrival times in heterogeneous
 traffic conditions. Unlike conventional prediction models, this research identifies hidden features related to topographical and Points of Interest (POIs) data, recognizing their critical role
 in reasoning. The methodology involves a two-fold approach, segmenting predictions into running time within a segment and dwell time at bus halts, using the multi-model ensemble
-technique. The results indicate that incorporating the new features (5 topographical and 10 POIs-related) has improved model performance by a reduction in MAE of 1.37 seconds
+technique. The results indicate that incorporating the new features (5 topographical and 12 POIs-related) has improved model performance by a reduction in MAE of 1.37 seconds
 (dwell time) and a decrease in MAPE by 0.7% (running time). While the enhancements in accuracy may appear modest, our focus lies on examining the influence of new features, offering
 valuable insights into the factors that cause delays. Moreover, we developed a dashboard showcasing real-time bus arrival times and highlighting delay reasoning using explainable AI
 techniques.
