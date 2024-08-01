@@ -1,0 +1,17 @@
+stop_id,route_id,direction,address,latitude,longitude,total_poi_count,average_poi_distance,place_of_worship,place_of_education,hospital,healthcare,tourist_attractions,commercial_places,nearby_bus_stops,public_places,fuel_station,place_of_accommodation
+BT01,654,Kandy-Digana,Kandy,7.292462226,80.6349778,15,0.0020177152208430845,8,2,0,2,39,3,4,11,1,0
+101,654,Kandy-Digana,Wales Park,7.291186017,80.63766185,13,0.0022101261697241217,3,1,0,1,23,1,1,7,0,0
+102,654,Kandy-Digana,Mahamaya,7.28784,80.64584,6,0.002406391573226052,0,8,0,1,2,0,0,1,0,0
+103,654,Kandy-Digana,Lewella junction,7.29443,80.65003,5,0.0020808512494056844,4,0,0,0,2,0,0,1,1,0
+104,654,Kandy-Digana,Thalwatta,7.286701,80.6603357,3,0.0011645357154392512,2,0,0,0,1,0,0,1,0,0
+105,654,Kandy-Digana,Thennekumbura Bridge,7.281866,80.66603,3,0.0019129473898353386,2,1,0,0,0,0,0,2,0,0
+106,654,Kandy-Digana,Kalapura Junction Busstop,7.27983,80.67621,6,0.0008553410954325333,0,0,0,2,3,0,0,13,1,0
+107,654,Kandy-Digana,Nattarampotha Junction Bus Stop,7.279117,80.67945,8,0.0010868797095683717,1,0,0,2,2,0,0,6,1,0
+108,654,Kandy-Digana,Kundasale New town,7.2809,80.68416,11,0.0018673845101263363,1,0,1,4,3,0,0,6,0,0
+109,654,Kandy-Digana,Warapitiya,7.28149,80.68635,9,0.0007938344058652715,0,0,0,3,4,0,0,6,0,0
+110,654,Kandy-Digana,Pallekele (Provincial Council),7.281322369,80.69676,3,0.0011080694869043928,1,0,0,0,0,0,0,2,0,0
+111,654,Kandy-Digana,Pachchakaatuwa,7.28473,80.70539,1,0.0017223344913136205,1,0,0,0,0,0,0,0,0,0
+112,654,Kandy-Digana,Balagolla,7.287349019,80.71400511,1,0.0009804329411098112,0,0,0,0,0,0,0,0,0,0
+113,654,Kandy-Digana,BOI,7.28411,80.7221,1,0.0012385227692665215,0,0,0,0,0,0,0,0,1,0
+114,654,Kandy-Digana,Kengalla,7.29152,80.72133,3,0.001638154109439565,1,2,0,0,0,0,0,0,0,0
+BT02,654,Kandy-Digana,Digana,7.29896,80.73472,7,0.0016952646551364877,2,0,0,0,0,0,3,0,1,0

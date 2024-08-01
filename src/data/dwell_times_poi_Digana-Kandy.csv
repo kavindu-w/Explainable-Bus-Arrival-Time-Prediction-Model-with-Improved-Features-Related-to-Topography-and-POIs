@@ -1,0 +1,16 @@
+stop_id,route_id,direction,address,latitude,longitude,total_poi_count,average_poi_distance,place_of_worship,place_of_education,hospital,healthcare,tourist_attractions,commercial_places,nearby_bus_stops,public_places,fuel_station,place_of_accommodation
+BT02,654,Kandy-Digana,Digana,7.29896,80.73472,7,0.0016952646551364877,2,0,0,0,0,0,3,0,1,0
+201,654,Digana-Kandy,Kengalla,7.291726007,80.72143025,3,0.0014700558493919377,1,2,0,0,0,0,0,0,0,0
+202,654,Digana-Kandy,BOI,7.28411,80.7221,1,0.0012385227692665215,0,0,0,0,0,0,0,0,1,0
+203,654,Digana-Kandy,Balagolla,7.287349,80.71401,1,0.000977052784570545,0,0,0,0,0,0,0,0,0,0
+204,654,Digana-Kandy,Pachchakaatuwa,7.28473,80.70539,1,0.0017223344913136205,1,0,0,0,0,0,0,0,0,0
+205,654,Digana-Kandy,Pallekele (Clock Tower),7.28036,80.69567,2,0.0011012692896062977,0,0,0,0,0,0,0,2,0,0
+206,654,Digana-Kandy,Warapitiya,7.28148,80.68672,8,0.0007720787654462962,0,0,0,3,2,0,0,6,0,0
+207,654,Digana-Kandy,Kundasale Police College,7.28039,80.68356,9,0.0020852932516384473,1,0,1,3,2,0,0,4,0,0
+208,654,Digana-Kandy,Nattarampotha ,7.279799826,80.67659381,6,0.0009732416400079513,0,0,0,2,3,0,0,13,1,0
+209,654,Digana-Kandy,Thennekumbura,7.28193,80.66594,3,0.001967308658353519,2,1,0,0,0,0,0,2,0,0
+210,654,Digana-Kandy,Buwelikada,7.29312,80.64922,8,0.0021377928673158913,2,3,0,1,5,0,0,0,1,0
+211,654,Digana-Kandy,Dharmaraja,7.29067,80.64651,10,0.0018552878555707238,2,7,2,5,7,0,0,0,1,0
+212,654,Digana-Kandy,Children park,7.28681,80.64761,4,0.0016202060262732673,0,4,0,0,1,0,0,1,0,0
+213,654,Digana-Kandy,Hilwood,7.29021,80.6398,8,0.002520834015057711,3,2,0,1,4,0,0,1,0,0
+BT01,654,Kandy-Digana,Kandy,7.292462226,80.6349778,15,0.0020177152208430845,8,2,0,2,39,3,4,11,1,0
