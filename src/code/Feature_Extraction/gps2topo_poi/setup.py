@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-with open("../../../README.md", "r", encoding="utf-8") as fh:
+with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 classifiers = [
@@ -23,23 +23,21 @@ classifiers = [
 setup(
     name="gps2topo_poi",
     packages=find_packages(),
-    version="0.1.0",
-    description="A Python package to use GPS data of public transit routes and append topological and Points of Interests (POI) related features.",
+    version="0.1.3",
+    description="A Python package to use GPS data of public transit routes and append topographical and Points of Interests (POI) related features.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/akw2000/Bus-arrival-time-prediction-and-real-time-updating-dashboard-with-topological-data",
-    keywords=['Topological data', 'Elevation', 'Points of Interest', 'POI', 'GPS', 'Travel Time', 'Public Transit', 'Heterogeneous Traffic Condition'],
+    url="https://github.com/kavindu-w/Explainable-Bus-Arrival-Time-Prediction-Model-with-Improved-Features-Related-to-Topography-and-POIs",
+    keywords=['Topolographical data', 'Elevation', 'Points of Interest', 'POI', 'GPS', 'Travel Time', 'Public Transit', 'Heterogeneous Traffic Conditions'],
     author="kavindu-w",
     author_email='akwarnakulasuriya@gmail.com',
     license='MIT',
     classifiers=classifiers,
     python_requires=">=3.6",
-    install_requires=['pandas', 'geopandas', 'numpy', 'osmnx', 'tqdm'],
+    install_requires=['pandas', 'numpy', 'osmnx', 'tqdm'],
     project_urls={
-        "Homepage": "https://github.com/akw2000/Bus-arrival-time-prediction-and-real-time-updating-dashboard-with-topological-data",
-        "Source": "https://github.com/akw2000/Bus-arrival-time-prediction-and-real-time-updating-dashboard-with-topological-data/tree/5dd15553fd94d847b1d59fbef5aaf73a9ebe33bf/src/features/gps2topo_poi",
-        # "Download": "https://pypi.org/project/gps2gtfs/",
-        # "Documentation": "https://github.com/aaivu/gps2gtfs/blob/master/PACKAGE_DESCRIPTION.md",
-        # "Bug Tracker": "https://github.com/aaivu/gps2gtfs/issues",
+        "Homepage": "https://github.com/kavindu-w/Explainable-Bus-Arrival-Time-Prediction-Model-with-Improved-Features-Related-to-Topography-and-POIs",
+        "Source": "https://github.com/kavindu-w/Explainable-Bus-Arrival-Time-Prediction-Model-with-Improved-Features-Related-to-Topography-and-POIs/tree/main/src/code/Feature_Extraction/gps2topo_poi",
+        "Download": "https://pypi.org/project/gps2topo-poi/",
     }
 )
