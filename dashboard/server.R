@@ -1,12 +1,4 @@
-#
-# This is the server logic of a Shiny web application. You can run the
-# application by clicking 'Run App' above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    http://shiny.rstudio.com/
-#
-# Source the db.R script to make the busStops function available
+
 source('db.R')
 source('ui.R')
 source('global.R')
@@ -25,25 +17,14 @@ shinyServer(function(input,output, session){
   })
   
   output$busStops <- renderTable({
-    # head(only_busStops, 4)  # Display the first 4 rows of the data
-    # print(bus_stops_data)
-    only_busStops
-    
+    only_busStops 
   })
-  #output$elevationPlot <- renderPlot(
-  # {
-      #barplot()
-  # }
-# )
-
+  
   # Update the choices of bus stops
   updateSelectInput(session, "startingStopInput1", choices = busStops) 
 
   # Update the choices of the selectInput with the unique device_ids
   updateSelectInput(session, "device_id_select", choices = device_ids)
-  
-  # # Observe the changes in the selected device_id
-
   
   observeEvent(c(input$device_id_select, input$startingStopInput1), {
     selected_device_id <- input$device_id_select
